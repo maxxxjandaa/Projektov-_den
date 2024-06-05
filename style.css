@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+}
+
+#logo{
+    height: 32px;
+    width: 32px;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+
+#contactUs{
+    padding: 12px 19px;
+    border-radius: 5px;
+    background-color: #487E91;
+    border: none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#hero{
+    height: calc(100% - 40px);
+    display: flex;
+}
+
+#hero div{
+    width: 50%;
+    
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 120px;
+    align-items: start;
+}
+
+#main-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 5.7rem;
+    font-weight: 300;
+    line-height: 1em;
+    margin-bottom: 22px;
+}
+
+#sub-title{
+    font-family: "Inter", sans-serif;
+    color: #383838;
+    font-weight: 350;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    width: 87%;
+}
+
+
+#getReady{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #487E91;
+    border-radius: 5px;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+#img-wrap{
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    justify-content: center;
+   
+    
+}
+
+#hero-img{
+    height: 980px;
+    width: 980px;
+    margin-top: 100px;
+    position: absolute;
+    top: -90px;
+}
+
+main{
+    height: 200vh;
+    left: 0;
+    top: 50%;
+}
+
+#background{
+    background-color: #E8F9FF;
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+
+
+#aboutUs{
+    height: 100vh;
+    display: flex;
+    background-color: #E8F9FF;
+}
+
+#aboutUs div{
+    width: 50%;
+    
+    display: flex;
+
+}
+
+#aboutUs-img{
+    width: 800px;
+    height: 800px;
+}
+
+#title-wrap{
+    flex-direction: column;
+    padding: 150px 0;
+}
+
+#sec-title{
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+}
+
+#information{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: #383838;
+    width: 65%;
+    line-height: 1.5em;
+}
+
+
+
+/* Utility class */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+
+  /* font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
